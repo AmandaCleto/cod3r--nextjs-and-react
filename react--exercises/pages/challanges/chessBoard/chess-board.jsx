@@ -1,4 +1,4 @@
-import styles from "./chess_board.module.css";
+import styles from "./chess-board.module.css";
 
 export default function ChessBoard() {
     const list = [1, 2, 3, 4, 5, 6, 7, 8];
