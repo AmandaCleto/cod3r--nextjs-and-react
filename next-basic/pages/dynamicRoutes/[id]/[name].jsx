@@ -11,7 +11,6 @@ export default function name() {
     const dynamicId = router.query.id;
     const dynamicName = router.query.name;
 
-    console.log(router);
     return (
         <div>
             <h1>Rotas | Id | Name </h1>
