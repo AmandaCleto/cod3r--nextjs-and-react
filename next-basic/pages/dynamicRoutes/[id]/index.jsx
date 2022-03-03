@@ -23,7 +23,7 @@ export default function routes() {
         <div>
             <h1>rotas index</h1>
             <ul>
-                <Link href={"/dynamicRoutes/teste/params?name=Harry&age=21"}>
+                <Link href={"/dynamicRoutes/teste/params?name=Harry&age=21"} passHref>
                     <li>Params</li>
                 </Link>
             </ul>

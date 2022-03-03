@@ -19,7 +19,7 @@ export default function params() {
                 age={dynamicAge}{" "}
             </h2>
 
-            <Link href="/dynamicRoutes/123">
+            <Link href="/dynamicRoutes/123" passHref>
                 <button>Voltar para home</button>
             </Link>
         </div>
